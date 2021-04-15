@@ -1,0 +1,111 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color:#FFB6C1;
+	font-family: Arial;
+}
+header{
+		position:relative;
+		max-width: 1300px;
+		margin: 0px auto;
+		padding: 2px;
+		background:black;
+		box-sizing: border-box;
+		border-radius:4px;
+		box-shadow:0 2px 5px rgba(0,0,0,0.2);
+		opacity: .9;
+	}
+.logo{
+		color:white;
+		height:60px;
+		font-size:20px;
+		padding:0 20px;
+		text-align: center;
+		box-sizing: border-box;
+		text-decoration:none;
+		font-style:italic;
+		font-family:cursive;
+		font-weight:bold;
+	}
+nav{
+	float:right;
+	}
+	.clearfix{
+	clear:both;
+	}
+	nav ul{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	}
+	nav ul li{
+	list-style:none;
+	position:relative;}
+	nav ul li a{
+	display:block;
+	margin: 10px 0;
+		padding: 10px 20px;
+		text-decoration:none;
+		color:white;
+	}
+	nav ul li a:hover{
+	background-color: gray;
+	transition:0.5s;
+	}
+	nav ul li ul{position:absolute; left:0; background:black;display:none;}
+	nav ul li:hover ul{display:block;}
+	
+	nav ul li ul li{
+	width:80px;
+	font-size: 15px;
+	display:block;
+	}
+	nav ul li:hover ul li{
+		display: block;
+	}
+	
+.category h1{
+	width: 70%;
+	margin:auto;
+	overflow: hidden;
+	font-family:cursive;
+	font-size: 30px;
+	text-align:center;
+}
+
+table{
+	margin-left:250px;
+	background-color:#B0C4DE;
+	font-size:20px;
+}
+#x
+{
+	width: 80%;
+	height:30px;
+}
+.r button
+{
+	background-color: #708090; 
+    border-color: transparent;
+	color: #ffffff;
+    cursor: pointer;
+	font-size:20px;
+	font-weight:bold;
+	width:20%;
+}
+button{ 
+    background-color: #FF0000; 
+    border-color: transparent;
+	color: #ffffff;
+    cursor: pointer;
+	font-size:20px;
+	font-weight:bold;
+	width:20%;		
+    } 
+    /* set a hover effect for the button*/ 
+      
+button:hover { 
+        opacity: 0.8; 
+    }

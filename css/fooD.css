@@ -1,0 +1,119 @@
+* {
+	margin:0;
+	padding:0;
+	}
+body{
+	background: linear-gradient(rgba(0, 0, 50, 0.5),rgba(0, 0, 50, 0.5)),url(../images/menucard.jpg);
+	background-size: cover;
+	font-family: Arial;
+	color: white;
+}
+header{
+		position:relative;
+		max-width: 1300px;
+		margin: 0px auto;
+		padding: 2px;
+		background:black;
+		box-sizing: border-box;
+		border-radius:4px;
+		box-shadow:0 2px 5px rgba(0,0,0,0.2);
+		opacity: .9;
+	}
+.logo{
+		color:white;
+		height:60px;
+		font-size:20px;
+		padding:0 20px;
+		text-align: center;
+		box-sizing: border-box;
+		text-decoration:none;
+		font-style:italic;
+		font-family:cursive;
+		font-weight:bold;
+	}
+	nav{
+	float:right;
+	}
+	.clearfix{
+	clear:both;
+	}
+nav ul{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	}
+	nav ul li{
+	list-style:none;
+	position:relative;}
+	nav ul li a{
+	display:block;
+	margin: 10px 0;
+		padding: 10px 20px;
+		text-decoration:none;
+		color:white;
+	}
+	nav ul li a:hover{
+	background-color: gray;
+	transition:0.5s;
+	}
+	nav ul li ul{position:absolute; left:0; background:black;display:none;}
+	nav ul li:hover ul{display:block;}
+	
+	nav ul li ul li{
+	width:80px;
+	font-size: 15px;
+	display:block;
+	}
+	nav ul li:hover ul li{
+		display: block;
+	}
+.menu{
+	position: absolute;
+	top:20%;
+	left:2%;
+	line-height:2px;
+	text-align:center;
+	font-style:italic;
+	font-family:cursive;
+	font-size:8px;
+}
+/*
+.search{
+	position: absolute;
+	top:10%;
+	left:80%;
+}
+*/
+.category{
+	width: 70%;
+	margin:auto;
+	overflow: hidden;
+	margin-top: 5%;
+}
+showcase h1{
+	font-family:cursive;
+	font-size: 30px;
+	text-align:center;
+}
+.setmenu{
+	margin-top:5%;
+	display:flex;
+	text-align:center;
+	font-family:cursive;
+}
+img{
+	width:80%;
+	border-radius: 50%;
+}
+.setmenu2n, .setmenu3n{
+	padding-left: 20px;
+	margin: 3%;
+}
+.setmenu h1{
+	font-size:24px;
+	margin:3%;
+}
+.setmenu h2{
+	font-size:20px;
+	margin:3%;
+}

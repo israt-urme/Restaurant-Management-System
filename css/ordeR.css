@@ -1,0 +1,115 @@
+* {
+	margin:0;
+	padding:0;
+	}
+	body{
+	font-family: sans-serif;
+	color: white;
+}
+header{
+		position:relative;
+		max-width: 1300px;
+		margin: 0px auto;
+		padding: 2px;
+		background:black;
+		box-sizing: border-box;
+		border-radius:4px;
+		box-shadow:0 2px 5px rgba(0,0,0,0.2);
+		opacity: .9;
+	}
+.logo{
+		color:white;
+		height:60px;
+		font-size:20px;
+		padding:0 20px;
+		text-align: center;
+		box-sizing: border-box;
+		text-decoration:none;
+		font-style:italic;
+		font-family:cursive;
+		font-weight:bold;
+	}
+nav{
+	float:right;
+	}
+	.clearfix{
+	clear:both;
+	}
+	nav ul{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	}
+	nav ul li{
+	list-style:none;
+	position:relative;}
+	nav ul li a{
+	display:block;
+	margin: 10px 0;
+		padding: 10px 20px;
+		text-decoration:none;
+		color:white;
+	}
+	nav ul li a:hover{
+	background-color: gray;
+	transition:0.5s;
+	}
+	nav ul li ul{position:absolute; left:0; background:black;display:none;}
+	nav ul li:hover ul{display:block;}
+	
+	nav ul li ul li{
+	width:80px;
+	font-size: 15px;
+	display:block;
+	}
+	nav ul li:hover ul li{
+		display: block;
+	}
+.title{
+	text-align:center;
+	color:red;
+	width: 70%;
+	margin:auto;
+	overflow: hidden;
+	margin-top: 5%;
+}
+.title h1{
+	font-size: 40px;
+	font-style:italic;
+	font-family:cursive;
+}
+.form1n{
+	background: #adc5ae;
+	width:40%;
+	float:left;
+	padding:50px;
+}
+.form2n{
+	background: #ec975e;
+	width:40%;
+	float:left;
+	padding:50px;
+}
+.form1{
+	width:60%;
+}
+label{ color:red; font-size:15px; font-weight:bold;}
+input[type=radio]{ font-size:20px;}
+input[type=name],input[type=email],input[type=address],input[type=phone]{width:300px;}
+input[type=address]{height:28px;}
+button{ 
+        background-color: #ff5722; 
+        border-color: transparent;
+		color: #ffffff;
+        cursor: pointer; 
+    } 
+    /* set a hover effect for the button*/ 
+      
+button:hover { 
+        opacity: 0.8; 
+    }
+.form2n button{
+	font-size:20px;
+	font-weight:bold;
+	width:40%;
+}

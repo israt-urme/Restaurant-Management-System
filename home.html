@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>home.RMS</title>
+	<meta name="viewport" content-type="width=device-width, initial-scale=1"/>
+	<link rel="stylesheet" type="text/css" href="css/all.css">
+	<style>
+	* {
+	margin:0;
+	padding:0;
+	}
+	body {
+	background: linear-gradient(rgba(0, 0, 50, 0.5),rgba(0, 0, 50, 0.5)),url(images/homE.jpg);
+	background-size: cover;
+	font-family: Arial;
+	color: white;
+	}
+	header{
+		position:relative;
+		max-width: 1300px;
+		margin: 0px auto;
+		padding: 2px;
+		background:black;
+		box-sizing: border-box;
+		border-radius:4px;
+		box-shadow:0 2px 5px rgba(0,0,0,0.2);
+		opacity: .9;
+	}
+	.logo{
+		color:white;
+		height:60px;
+		font-size:20px;
+		padding:0 20px;
+		text-align: center;
+		box-sizing: border-box;
+		text-decoration:none;
+		font-style:italic;
+		font-family:cursive;
+		font-weight:bold;
+	}
+	nav{
+	float:right;
+	}
+	.clearfix{
+	clear:both;
+	}
+	nav ul{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	}
+	nav ul li{
+	list-style:none;
+	position:relative;}
+	nav ul li a{
+	display:block;
+	margin: 10px 0;
+		padding: 10px 20px;
+		text-decoration:none;
+		color:white;
+	}
+	nav ul li a:hover{
+	background-color: gray;
+	transition:0.5s;
+	}
+	nav ul li ul{position:absolute; left:0; background:black;display:none;}
+	nav ul li:hover ul{display:block;}
+	
+	nav ul li ul li{
+	width:80px;
+	font-size: 15px;
+	display:block;
+	}
+	nav ul li:hover ul li{
+		display: block;
+	}
+	.home-title
+	{
+		position: absolute;
+		top:50%;
+		left:50%;
+		text-align:center;
+		transform: translate(-50%,-50%);
+	}
+	.home-title h1
+	{
+		font-size: 30px;
+		font-style:normal;
+	}
+	.home-title h2
+	{
+		font-size: 35px;
+		font-style:italic;
+		font-family:cursive;
+	}
+	.home-title h3
+	{
+		font-size:15px;
+	}
+	.button
+	{
+		position: absolute;
+		top:70%;
+		left:50%;
+		font-size: 20px;
+		transform: translate(-50%,-50%);
+	}
+	.btn
+	{
+		border:1px solid #fff;
+		padding:10px 30px;
+		color:orange;
+		text-decoration: none;
+		transition:0.6s ease;
+	}
+	.btn:hover{
+		background-color:#fff;
+		color:#000;
+	}
+	</style>
+</head>
+<body>
+	<header>
+	<a href="home.html" class="logo">RESTRO</a>
+	<div class="menu-toggle">
+	<nav>
+	<ul>
+		<li><a href="home.html">Home</a></li>
+		<li><a href="food.html">Food</a>
+			<ul>
+				<li><a href="food.html">menu</a></li>
+				<li><a href="order.php">order</a></li>
+			</ul>
+		</li>
+		<li><a href="booking.php">Booking</a></li>
+		<li><a href="history.php">History</a>
+			<ul>
+				<li><a href="#">payment</a></li>
+				<li><a href="bill.php">rocord bill</a></li>
+				<li><a href="#">rating judging system</a></li>
+			</ul>
+		</li>
+		<li><a href="about.php">About</a></li>
+		<li><a href="contact.php">Contact</a></li>
+		<li><a href="login-holder1.php">Logout</a></li>
+	</ul>
+	</nav>
+	</div>
+	<div class="clearfix"></div>
+	</header>
+	<div class="home-title">
+		<h1>Welcome to our restaurant</h1>
+		<h2>RESTRO</h2>
+		<h3>Although the skills are not hard to learn,
+		finding the happiness and finding the satisfaction and finding fulfillment in continuously
+		serving somebody else something good to eat,
+		is what makes a really good restaurant... Mario Batali</h3>
+	</div>
+	<div class="button">
+		<a href="food.html" class="btn">order now</a>
+	</div>
+</body>
+</html>

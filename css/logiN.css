@@ -1,0 +1,90 @@
+body{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background: linear-gradient(rgba(0, 0, 50, 0.5),rgba(0, 0, 50, 0.5)),url(../images/loginpage.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+}
+.login-title
+{
+	margin-top: 100px;
+	color: #ffffff;
+	text-transform: uppercase;
+	transition: all 4s ease-in-out;
+}
+.login-title h1
+{
+	font-size: 32px;
+	line-height: 10px;
+}
+.login-title h2
+{
+	font-size: 16px;
+}
+login-form
+{
+	margin-top: 50px;
+	transition: all 4s ease-in-out;
+}
+.form-control
+{
+	width: 600px;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid gray;
+	color: #ffffff;
+	font-size: 18px;
+	margin-bottom: 16px;
+}
+input
+{
+	height: 45px;
+}
+
+/*form .login
+{
+	background: #ff5722;
+	border-color: transparent;
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height: 50px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+form .login:hover
+{
+	background-color: #f44336;
+	cursor: pointer;
+}
+*/
+button { 
+        background-color: #ff5722; 
+        border-color: transparent;
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height: 50px;
+	margin-top: 20px;
+        cursor: pointer; 
+        width: 40%; 
+    } 
+    /* set a hover effect for the button*/ 
+      
+button:hover { 
+        opacity: 0.8; 
+    } 
+
+
+
+
+
+
+
+	
